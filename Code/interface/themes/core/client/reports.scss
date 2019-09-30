@@ -1,0 +1,29 @@
+/*=============================================================
+ * Client Reports
+ * seen in the client reports screens
+ *============================================================*/
+
+#client_reports {
+    width: 100%;
+}
+#client_reports .issues {
+    padding-right: 30px;
+}
+#client_reports .issues table {
+    margin: 10px 0px 10px 0px;
+}
+#client_reports .issues td {
+    padding: 2px;
+}
+#client_reports .encounters td {
+    padding: 2px;
+}
+#client_reports .encounter_forms {
+    margin: 5px 15px 5px 15px;
+}
+#client_reports td {
+    vertical-align: top;
+}
+#client_reports ul {
+    list-style: none;
+}

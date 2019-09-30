@@ -1,0 +1,37 @@
+/*=============================================================
+ * Client Stats
+ * seen in the client stats screens
+ *============================================================*/
+
+#client_stats {
+    padding: 10px;
+}
+#client_stats table {
+    width: 100%;
+    border-collapse: collapse;
+}
+#client_stats td {
+    padding: 3px;
+}
+#client_stats .statrow {
+    cursor: pointer;
+}
+#client_stats .head {
+    background-color: #cccccc;
+    text-align: center;
+}
+#client_stats .detail {
+    vertical-align: top;
+}
+#client_stats .btn {
+    background-color: transparent;
+}
+#client_stats .bg1 {
+    background-color: #ddddff;
+}
+#client_stats .bg2 {
+    background-color: #ffdddd;
+}
+#client_stats .center {
+    text-align: center;
+}

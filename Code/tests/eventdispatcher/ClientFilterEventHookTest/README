@@ -1,0 +1,29 @@
+**Summary**
+
+This is an example module that demonstrates the capability of event hooks with regards
+to the client filter and access to client demographics
+
+**Setup**
+
+Copy the entire UserClientBlacklist directory into interface/modules/zend_modules/module
+
+Then you will be able to register the module.
+
+**Installation**
+
+1. Browse to Modules > Manage Modules
+2. Click "Unregistered" Tab
+3. Click "Register" button next to UserClientBlacklist module, which will be near the bottom
+4. You'll automatically be redirected to the "Registered tab" 
+5. Click "Install" button next to UserClientBlacklist module
+6. Click "Enable" button next to UserClientBlacklist module
+
+**Usage**
+
+edit the file in UserClientBlacklist/vonfig/blacklist.php to include the usernames of users 
+and PIDs to restrict access to those clients for those users.
+
+Try using the client finder and see that when logged in as a user, the clients in your blacklist
+will not appear in the finder. You will also receive an "unauthorized" message when attempting to
+view or update the client demographics screen.
+    
